@@ -1,5 +1,5 @@
 
-const clientID = process.env.SECRET_KEY;
+const clientID = process.env.REACT_APP_SECRET_KEY;
 const redirectURI = 'https://master.d3bvlp9kpuh3j0.amplifyapp.com/';
 
 let accessToken;
